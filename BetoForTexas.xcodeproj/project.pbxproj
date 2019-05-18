@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		422B6610AD981A7C2757C7EC /* Pods_BetoForTexasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97C40430D7068D6339D8B8C /* Pods_BetoForTexasTests.framework */; };
+		9AB6E012CF5942284D3C7C0F /* Pods_BetoForTexasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C479F600CA5C2404CC1A12F /* Pods_BetoForTexasUITests.framework */; };
+		CE04225D20CD7DD400E63C9A /* IssuesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04225C20CD7DD400E63C9A /* IssuesDetailViewController.swift */; };
+		CE04225F20CD7ED100E63C9A /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE04225E20CD7ED100E63C9A /* Slide.xib */; };
+		CE04226120CD82D700E63C9A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04226020CD82D700E63C9A /* Slide.swift */; };
+		CE04226320D4BCA800E63C9A /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04226220D4BCA800E63C9A /* DonateViewController.swift */; };
+		CE1AFA2C212BB5E10085D79F /* CommitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFA2B212BB5E10085D79F /* CommitViewController.swift */; };
+		CE1AFA2E212BC0170085D79F /* VolunteerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFA2D212BC0170085D79F /* VolunteerButton.swift */; };
+		CE3B624720E6C2ED00D4CAF5 /* VSlide.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3B624620E6C2ED00D4CAF5 /* VSlide.xib */; };
+		CE3B624D20E6DBB600D4CAF5 /* VolunteerSlides.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B624C20E6DBB600D4CAF5 /* VolunteerSlides.swift */; };
+		CE3B624F20E6E35D00D4CAF5 /* CanvassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B624E20E6E35D00D4CAF5 /* CanvassViewController.swift */; };
+		CE580415212E2DB200E4F1C6 /* PhonebankVolunteerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE580414212E2DB200E4F1C6 /* PhonebankVolunteerController.swift */; };
+		CE5810E520DF4FBB002938C2 /* Fort Foundry - Abolition.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE5810E320DF4FBB002938C2 /* Fort Foundry - Abolition.otf */; };
+		CE5810E620DF4FBB002938C2 /* Fort Foundry - Abolition Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE5810E420DF4FBB002938C2 /* Fort Foundry - Abolition Oblique.otf */; };
+		CE5810EA20DF7090002938C2 /* MapAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5810E920DF7090002938C2 /* MapAnnotations.swift */; };
+		CE5810F220E17A7E002938C2 /* MainVolunteerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5810F120E17A7E002938C2 /* MainVolunteerViewController.swift */; };
+		CEA583F220BCA66600A5CEF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA583F120BCA66600A5CEF0 /* AppDelegate.swift */; };
+		CEA583F420BCA66600A5CEF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA583F320BCA66600A5CEF0 /* ViewController.swift */; };
+		CEA583F720BCA66600A5CEF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA583F520BCA66600A5CEF0 /* Main.storyboard */; };
+		CEA583F920BCA66700A5CEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA583F820BCA66700A5CEF0 /* Assets.xcassets */; };
+		CEA583FC20BCA66700A5CEF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA583FA20BCA66700A5CEF0 /* LaunchScreen.storyboard */; };
+		CEA5840720BCA66800A5CEF0 /* BetoForTexasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5840620BCA66800A5CEF0 /* BetoForTexasTests.swift */; };
+		CEA5841220BCA66800A5CEF0 /* BetoForTexasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5841120BCA66800A5CEF0 /* BetoForTexasUITests.swift */; };
+		CEA5842020BCA75200A5CEF0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEA5841F20BCA75200A5CEF0 /* GoogleService-Info.plist */; };
+		CEAE86FA20DE106500F666AD /* NativeMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE86F920DE106500F666AD /* NativeMapViewController.swift */; };
+		CEAE86FC20DE15D000F666AD /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE86FB20DE15D000F666AD /* Locations.swift */; };
+		CEDEB9862127BA010042DEA5 /* LocationDec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDEB9852127BA010042DEA5 /* LocationDec.swift */; };
+		CEFDD09920C1C92D00CAE181 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDD09820C1C92D00CAE181 /* MapViewController.swift */; };
+		CEFDD09B20C4619300CAE181 /* IssuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDD09A20C4619300CAE181 /* IssuesViewController.swift */; };
+		CF5C61C1D1595404E9736900 /* Pods_BetoForTexas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D26D2EF4A3CF9B2B8C38FFB /* Pods_BetoForTexas.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA5840320BCA66800A5CEF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA583E620BCA66600A5CEF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA583ED20BCA66600A5CEF0;
+			remoteInfo = BetoForTexas;
+		};
+		CEA5840E20BCA66800A5CEF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA583E620BCA66600A5CEF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA583ED20BCA66600A5CEF0;
+			remoteInfo = BetoForTexas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15BAED82623D392E1B99696F /* Pods-BetoForTexasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetoForTexasUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BetoForTexasUITests/Pods-BetoForTexasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4C479F600CA5C2404CC1A12F /* Pods_BetoForTexasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetoForTexasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63908819C08992752810A666 /* Pods-BetoForTexasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetoForTexasTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BetoForTexasTests/Pods-BetoForTexasTests.release.xcconfig"; sourceTree = "<group>"; };
+		707D878F75966E20B818DE89 /* Pods-BetoForTexas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetoForTexas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BetoForTexas/Pods-BetoForTexas.debug.xcconfig"; sourceTree = "<group>"; };
+		9D26D2EF4A3CF9B2B8C38FFB /* Pods_BetoForTexas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetoForTexas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97C40430D7068D6339D8B8C /* Pods_BetoForTexasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetoForTexasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFFCF52A93F0D948C019AB7 /* Pods-BetoForTexasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetoForTexasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BetoForTexasUITests/Pods-BetoForTexasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE04225C20CD7DD400E63C9A /* IssuesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesDetailViewController.swift; sourceTree = "<group>"; };
+		CE04225E20CD7ED100E63C9A /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		CE04226020CD82D700E63C9A /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		CE04226220D4BCA800E63C9A /* DonateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateViewController.swift; sourceTree = "<group>"; };
+		CE1AFA2B212BB5E10085D79F /* CommitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitViewController.swift; sourceTree = "<group>"; };
+		CE1AFA2D212BC0170085D79F /* VolunteerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerButton.swift; sourceTree = "<group>"; };
+		CE3B624620E6C2ED00D4CAF5 /* VSlide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VSlide.xib; sourceTree = "<group>"; };
+		CE3B624C20E6DBB600D4CAF5 /* VolunteerSlides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerSlides.swift; sourceTree = "<group>"; };
+		CE3B624E20E6E35D00D4CAF5 /* CanvassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvassViewController.swift; sourceTree = "<group>"; };
+		CE580414212E2DB200E4F1C6 /* PhonebankVolunteerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonebankVolunteerController.swift; sourceTree = "<group>"; };
+		CE5810E320DF4FBB002938C2 /* Fort Foundry - Abolition.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fort Foundry - Abolition.otf"; sourceTree = "<group>"; };
+		CE5810E420DF4FBB002938C2 /* Fort Foundry - Abolition Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fort Foundry - Abolition Oblique.otf"; sourceTree = "<group>"; };
+		CE5810E920DF7090002938C2 /* MapAnnotations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapAnnotations.swift; path = BetoForTexas/MenuViewControllers/Events/MapAnnotations.swift; sourceTree = SOURCE_ROOT; };
+		CE5810F120E17A7E002938C2 /* MainVolunteerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVolunteerViewController.swift; sourceTree = "<group>"; };
+		CEA583EE20BCA66600A5CEF0 /* BetoForTexas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetoForTexas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA583F120BCA66600A5CEF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA583F320BCA66600A5CEF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEA583F620BCA66600A5CEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA583F820BCA66700A5CEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA583FB20BCA66700A5CEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEA583FD20BCA66700A5CEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA5840220BCA66800A5CEF0 /* BetoForTexasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetoForTexasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA5840620BCA66800A5CEF0 /* BetoForTexasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetoForTexasTests.swift; sourceTree = "<group>"; };
+		CEA5840820BCA66800A5CEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA5840D20BCA66800A5CEF0 /* BetoForTexasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetoForTexasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA5841120BCA66800A5CEF0 /* BetoForTexasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetoForTexasUITests.swift; sourceTree = "<group>"; };
+		CEA5841320BCA66800A5CEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA5841F20BCA75200A5CEF0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEAE86F920DE106500F666AD /* NativeMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeMapViewController.swift; sourceTree = "<group>"; };
+		CEAE86FB20DE15D000F666AD /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		CEDEB9852127BA010042DEA5 /* LocationDec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDec.swift; sourceTree = "<group>"; };
+		CEFDD09820C1C92D00CAE181 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CEFDD09A20C4619300CAE181 /* IssuesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesViewController.swift; sourceTree = "<group>"; };
+		CF699B7251DFDC67DF9FA621 /* Pods-BetoForTexasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetoForTexasTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BetoForTexasTests/Pods-BetoForTexasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2EF14130641AC82D7C2D7F4 /* Pods-BetoForTexas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetoForTexas.release.xcconfig"; path = "Pods/Target Support Files/Pods-BetoForTexas/Pods-BetoForTexas.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA583EB20BCA66600A5CEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5C61C1D1595404E9736900 /* Pods_BetoForTexas.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA583FF20BCA66800A5CEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422B6610AD981A7C2757C7EC /* Pods_BetoForTexasTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA5840A20BCA66800A5CEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB6E012CF5942284D3C7C0F /* Pods_BetoForTexasUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B018F62B4AF4B40F22FD6CA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D26D2EF4A3CF9B2B8C38FFB /* Pods_BetoForTexas.framework */,
+				A97C40430D7068D6339D8B8C /* Pods_BetoForTexasTests.framework */,
+				4C479F600CA5C2404CC1A12F /* Pods_BetoForTexasUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE1AFA2A212BB5950085D79F /* CommitVote */ = {
+			isa = PBXGroup;
+			children = (
+				CE1AFA2B212BB5E10085D79F /* CommitViewController.swift */,
+			);
+			path = CommitVote;
+			sourceTree = "<group>";
+		};
+		CE5810E220DF4F8C002938C2 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE5810E420DF4FBB002938C2 /* Fort Foundry - Abolition Oblique.otf */,
+				CE5810E320DF4FBB002938C2 /* Fort Foundry - Abolition.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		CE5810EB20E179AE002938C2 /* Garbage */ = {
+			isa = PBXGroup;
+			children = (
+				CEAE86FB20DE15D000F666AD /* Locations.swift */,
+				CEFDD09820C1C92D00CAE181 /* MapViewController.swift */,
+			);
+			path = Garbage;
+			sourceTree = "<group>";
+		};
+		CE5810EC20E179C9002938C2 /* Issues */ = {
+			isa = PBXGroup;
+			children = (
+				CE04226020CD82D700E63C9A /* Slide.swift */,
+				CE04225E20CD7ED100E63C9A /* Slide.xib */,
+				CEFDD09A20C4619300CAE181 /* IssuesViewController.swift */,
+				CE04225C20CD7DD400E63C9A /* IssuesDetailViewController.swift */,
+			);
+			path = Issues;
+			sourceTree = "<group>";
+		};
+		CE5810ED20E179D8002938C2 /* Donate */ = {
+			isa = PBXGroup;
+			children = (
+				CE5810EE20E17A08002938C2 /* Events */,
+				CE04226220D4BCA800E63C9A /* DonateViewController.swift */,
+			);
+			path = Donate;
+			sourceTree = "<group>";
+		};
+		CE5810EE20E17A08002938C2 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		CE5810EF20E17A2D002938C2 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				CE5810E920DF7090002938C2 /* MapAnnotations.swift */,
+				CEAE86F920DE106500F666AD /* NativeMapViewController.swift */,
+				CEDEB9852127BA010042DEA5 /* LocationDec.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		CE5810F020E17A62002938C2 /* Volunteer */ = {
+			isa = PBXGroup;
+			children = (
+				CE5810F120E17A7E002938C2 /* MainVolunteerViewController.swift */,
+				CE580414212E2DB200E4F1C6 /* PhonebankVolunteerController.swift */,
+				CE3B624E20E6E35D00D4CAF5 /* CanvassViewController.swift */,
+				CE3B624620E6C2ED00D4CAF5 /* VSlide.xib */,
+				CE3B624C20E6DBB600D4CAF5 /* VolunteerSlides.swift */,
+				CE1AFA2D212BC0170085D79F /* VolunteerButton.swift */,
+			);
+			path = Volunteer;
+			sourceTree = "<group>";
+		};
+		CEA583E520BCA66600A5CEF0 = {
+			isa = PBXGroup;
+			children = (
+				CEA583F020BCA66600A5CEF0 /* BetoForTexas */,
+				CEA5840520BCA66800A5CEF0 /* BetoForTexasTests */,
+				CEA5841020BCA66800A5CEF0 /* BetoForTexasUITests */,
+				CEA583EF20BCA66600A5CEF0 /* Products */,
+				CF1B927CC256831D81A95512 /* Pods */,
+				B018F62B4AF4B40F22FD6CA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA583EF20BCA66600A5CEF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA583EE20BCA66600A5CEF0 /* BetoForTexas.app */,
+				CEA5840220BCA66800A5CEF0 /* BetoForTexasTests.xctest */,
+				CEA5840D20BCA66800A5CEF0 /* BetoForTexasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA583F020BCA66600A5CEF0 /* BetoForTexas */ = {
+			isa = PBXGroup;
+			children = (
+				CEA583F120BCA66600A5CEF0 /* AppDelegate.swift */,
+				CEA583F320BCA66600A5CEF0 /* ViewController.swift */,
+				CEFDD09D20C461D400CAE181 /* MenuViewControllers */,
+				CEA583F520BCA66600A5CEF0 /* Main.storyboard */,
+				CEA583F820BCA66700A5CEF0 /* Assets.xcassets */,
+				CEA583FA20BCA66700A5CEF0 /* LaunchScreen.storyboard */,
+				CEA583FD20BCA66700A5CEF0 /* Info.plist */,
+				CEA5841F20BCA75200A5CEF0 /* GoogleService-Info.plist */,
+				CE5810EB20E179AE002938C2 /* Garbage */,
+				CE5810E220DF4F8C002938C2 /* fonts */,
+			);
+			path = BetoForTexas;
+			sourceTree = "<group>";
+		};
+		CEA5840520BCA66800A5CEF0 /* BetoForTexasTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5840620BCA66800A5CEF0 /* BetoForTexasTests.swift */,
+				CEA5840820BCA66800A5CEF0 /* Info.plist */,
+			);
+			path = BetoForTexasTests;
+			sourceTree = "<group>";
+		};
+		CEA5841020BCA66800A5CEF0 /* BetoForTexasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5841120BCA66800A5CEF0 /* BetoForTexasUITests.swift */,
+				CEA5841320BCA66800A5CEF0 /* Info.plist */,
+			);
+			path = BetoForTexasUITests;
+			sourceTree = "<group>";
+		};
+		CEFDD09D20C461D400CAE181 /* MenuViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE1AFA2A212BB5950085D79F /* CommitVote */,
+				CE5810EC20E179C9002938C2 /* Issues */,
+				CE5810ED20E179D8002938C2 /* Donate */,
+				CE5810EF20E17A2D002938C2 /* Events */,
+				CE5810F020E17A62002938C2 /* Volunteer */,
+			);
+			path = MenuViewControllers;
+			sourceTree = "<group>";
+		};
+		CF1B927CC256831D81A95512 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				707D878F75966E20B818DE89 /* Pods-BetoForTexas.debug.xcconfig */,
+				E2EF14130641AC82D7C2D7F4 /* Pods-BetoForTexas.release.xcconfig */,
+				CF699B7251DFDC67DF9FA621 /* Pods-BetoForTexasTests.debug.xcconfig */,
+				63908819C08992752810A666 /* Pods-BetoForTexasTests.release.xcconfig */,
+				BDFFCF52A93F0D948C019AB7 /* Pods-BetoForTexasUITests.debug.xcconfig */,
+				15BAED82623D392E1B99696F /* Pods-BetoForTexasUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA583ED20BCA66600A5CEF0 /* BetoForTexas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA5841620BCA66800A5CEF0 /* Build configuration list for PBXNativeTarget "BetoForTexas" */;
+			buildPhases = (
+				35F7AAF85AF3FE299C986848 /* [CP] Check Pods Manifest.lock */,
+				CEA583EA20BCA66600A5CEF0 /* Sources */,
+				CEA583EB20BCA66600A5CEF0 /* Frameworks */,
+				CEA583EC20BCA66600A5CEF0 /* Resources */,
+				FBF40681F2923D64CB4D008F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetoForTexas;
+			productName = BetoForTexas;
+			productReference = CEA583EE20BCA66600A5CEF0 /* BetoForTexas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA5840120BCA66800A5CEF0 /* BetoForTexasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA5841920BCA66800A5CEF0 /* Build configuration list for PBXNativeTarget "BetoForTexasTests" */;
+			buildPhases = (
+				80C7C0037AF19D1E2CF98101 /* [CP] Check Pods Manifest.lock */,
+				CEA583FE20BCA66800A5CEF0 /* Sources */,
+				CEA583FF20BCA66800A5CEF0 /* Frameworks */,
+				CEA5840020BCA66800A5CEF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA5840420BCA66800A5CEF0 /* PBXTargetDependency */,
+			);
+			name = BetoForTexasTests;
+			productName = BetoForTexasTests;
+			productReference = CEA5840220BCA66800A5CEF0 /* BetoForTexasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEA5840C20BCA66800A5CEF0 /* BetoForTexasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA5841C20BCA66800A5CEF0 /* Build configuration list for PBXNativeTarget "BetoForTexasUITests" */;
+			buildPhases = (
+				21F4B00A8DF22B9EA383315B /* [CP] Check Pods Manifest.lock */,
+				CEA5840920BCA66800A5CEF0 /* Sources */,
+				CEA5840A20BCA66800A5CEF0 /* Frameworks */,
+				CEA5840B20BCA66800A5CEF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA5840F20BCA66800A5CEF0 /* PBXTargetDependency */,
+			);
+			name = BetoForTexasUITests;
+			productName = BetoForTexasUITests;
+			productReference = CEA5840D20BCA66800A5CEF0 /* BetoForTexasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA583E620BCA66600A5CEF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = BenjaminHill;
+				TargetAttributes = {
+					CEA583ED20BCA66600A5CEF0 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					CEA5840120BCA66800A5CEF0 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = CEA583ED20BCA66600A5CEF0;
+					};
+					CEA5840C20BCA66800A5CEF0 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = CEA583ED20BCA66600A5CEF0;
+					};
+				};
+			};
+			buildConfigurationList = CEA583E920BCA66600A5CEF0 /* Build configuration list for PBXProject "BetoForTexas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA583E520BCA66600A5CEF0;
+			productRefGroup = CEA583EF20BCA66600A5CEF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA583ED20BCA66600A5CEF0 /* BetoForTexas */,
+				CEA5840120BCA66800A5CEF0 /* BetoForTexasTests */,
+				CEA5840C20BCA66800A5CEF0 /* BetoForTexasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA583EC20BCA66600A5CEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA583FC20BCA66700A5CEF0 /* LaunchScreen.storyboard in Resources */,
+				CE5810E520DF4FBB002938C2 /* Fort Foundry - Abolition.otf in Resources */,
+				CE3B624720E6C2ED00D4CAF5 /* VSlide.xib in Resources */,
+				CEA583F920BCA66700A5CEF0 /* Assets.xcassets in Resources */,
+				CE5810E620DF4FBB002938C2 /* Fort Foundry - Abolition Oblique.otf in Resources */,
+				CEA5842020BCA75200A5CEF0 /* GoogleService-Info.plist in Resources */,
+				CE04225F20CD7ED100E63C9A /* Slide.xib in Resources */,
+				CEA583F720BCA66600A5CEF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA5840020BCA66800A5CEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA5840B20BCA66800A5CEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21F4B00A8DF22B9EA383315B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetoForTexasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35F7AAF85AF3FE299C986848 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetoForTexas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80C7C0037AF19D1E2CF98101 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetoForTexasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF40681F2923D64CB4D008F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BetoForTexas/Pods-BetoForTexas-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BetoForTexas/Pods-BetoForTexas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA583EA20BCA66600A5CEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3B624D20E6DBB600D4CAF5 /* VolunteerSlides.swift in Sources */,
+				CEAE86FC20DE15D000F666AD /* Locations.swift in Sources */,
+				CE1AFA2E212BC0170085D79F /* VolunteerButton.swift in Sources */,
+				CE04225D20CD7DD400E63C9A /* IssuesDetailViewController.swift in Sources */,
+				CE3B624F20E6E35D00D4CAF5 /* CanvassViewController.swift in Sources */,
+				CE04226320D4BCA800E63C9A /* DonateViewController.swift in Sources */,
+				CE5810EA20DF7090002938C2 /* MapAnnotations.swift in Sources */,
+				CE5810F220E17A7E002938C2 /* MainVolunteerViewController.swift in Sources */,
+				CEFDD09B20C4619300CAE181 /* IssuesViewController.swift in Sources */,
+				CEDEB9862127BA010042DEA5 /* LocationDec.swift in Sources */,
+				CEA583F420BCA66600A5CEF0 /* ViewController.swift in Sources */,
+				CEAE86FA20DE106500F666AD /* NativeMapViewController.swift in Sources */,
+				CE04226120CD82D700E63C9A /* Slide.swift in Sources */,
+				CE580415212E2DB200E4F1C6 /* PhonebankVolunteerController.swift in Sources */,
+				CE1AFA2C212BB5E10085D79F /* CommitViewController.swift in Sources */,
+				CEFDD09920C1C92D00CAE181 /* MapViewController.swift in Sources */,
+				CEA583F220BCA66600A5CEF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA583FE20BCA66800A5CEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA5840720BCA66800A5CEF0 /* BetoForTexasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA5840920BCA66800A5CEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA5841220BCA66800A5CEF0 /* BetoForTexasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA5840420BCA66800A5CEF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA583ED20BCA66600A5CEF0 /* BetoForTexas */;
+			targetProxy = CEA5840320BCA66800A5CEF0 /* PBXContainerItemProxy */;
+		};
+		CEA5840F20BCA66800A5CEF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA583ED20BCA66600A5CEF0 /* BetoForTexas */;
+			targetProxy = CEA5840E20BCA66800A5CEF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEA583F520BCA66600A5CEF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA583F620BCA66600A5CEF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA583FA20BCA66700A5CEF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA583FB20BCA66700A5CEF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA5841420BCA66800A5CEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA5841520BCA66800A5CEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA5841720BCA66800A5CEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 707D878F75966E20B818DE89 /* Pods-BetoForTexas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9867HQ57PT;
+				INFOPLIST_FILE = BetoForTexas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BenjaminH.BetoForTexas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA5841820BCA66800A5CEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2EF14130641AC82D7C2D7F4 /* Pods-BetoForTexas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9867HQ57PT;
+				INFOPLIST_FILE = BetoForTexas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BenjaminH.BetoForTexas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEA5841A20BCA66800A5CEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF699B7251DFDC67DF9FA621 /* Pods-BetoForTexasTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BetoForTexasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BenjaminH.BetoForTexasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetoForTexas.app/BetoForTexas";
+			};
+			name = Debug;
+		};
+		CEA5841B20BCA66800A5CEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63908819C08992752810A666 /* Pods-BetoForTexasTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BetoForTexasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BenjaminH.BetoForTexasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetoForTexas.app/BetoForTexas";
+			};
+			name = Release;
+		};
+		CEA5841D20BCA66800A5CEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDFFCF52A93F0D948C019AB7 /* Pods-BetoForTexasUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BetoForTexasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BenjaminH.BetoForTexasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetoForTexas;
+			};
+			name = Debug;
+		};
+		CEA5841E20BCA66800A5CEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15BAED82623D392E1B99696F /* Pods-BetoForTexasUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BetoForTexasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BenjaminH.BetoForTexasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetoForTexas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA583E920BCA66600A5CEF0 /* Build configuration list for PBXProject "BetoForTexas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA5841420BCA66800A5CEF0 /* Debug */,
+				CEA5841520BCA66800A5CEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA5841620BCA66800A5CEF0 /* Build configuration list for PBXNativeTarget "BetoForTexas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA5841720BCA66800A5CEF0 /* Debug */,
+				CEA5841820BCA66800A5CEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA5841920BCA66800A5CEF0 /* Build configuration list for PBXNativeTarget "BetoForTexasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA5841A20BCA66800A5CEF0 /* Debug */,
+				CEA5841B20BCA66800A5CEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA5841C20BCA66800A5CEF0 /* Build configuration list for PBXNativeTarget "BetoForTexasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA5841D20BCA66800A5CEF0 /* Debug */,
+				CEA5841E20BCA66800A5CEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA583E620BCA66600A5CEF0 /* Project object */;
+}
