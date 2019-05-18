@@ -3,6 +3,7 @@ This app was developed over the course of the summer of 2018. I had the idea to 
 
 ## Issues
 ![Issues](https://user-images.githubusercontent.com/8885471/57964752-71023e00-78ef-11e9-9c4e-9e15b2b3f40f.gif)
+<img width="625" alt="Screen Shot 2019-05-17 at 10 27 17 PM" src="https://user-images.githubusercontent.com/8885471/57965012-f3403180-78f2-11e9-9167-dc40c4c3becb.png">
 
 A firebase backend tied into the app allowed for quick changes that would propagate to all users. Each list could have elements added or removed and would be reflected instantly on all phones. This feature was developed to mirror the Beto for Texas website which included talking points. Ideally this feature on the phone would be used to help spark conversations, and have evidence for the candidates stance on certain issues. 
 
